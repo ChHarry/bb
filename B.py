@@ -37,7 +37,7 @@ def Run():
 	print('[1] Pak Cloning \n[2] BD Cloning\n[0] Exit')
 	Bb = input('[•] Choose : ')
 	if bb =='1':
-		os.system('python bb.py')
+		os.system('python PAK.py')
 	elif bb =='2':
-		os.system('python bb.py')
+		os.system('python BD.py')
 Run()
